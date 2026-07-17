@@ -21,10 +21,9 @@
 import { useState } from "react";
 import "./App.css";
 
-import.meta.env.VITE_API_URL;
 // The base URL for all fetch calls in this file.
 // Change this if your backend runs on a different port.
-//const API_URL = VITE_API_URL|| "http://localhost:8080";
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8080";
 
 export default function App() {
   // ----------------------------------------------------------
